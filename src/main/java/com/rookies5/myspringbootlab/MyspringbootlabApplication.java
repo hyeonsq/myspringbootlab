@@ -11,9 +11,4 @@ public class MyspringbootlabApplication {
         SpringApplication.run(MyspringbootlabApplication.class, args);
     }
 
-    @Bean
-    public String hello(){
-        System.out.println("=======Spring Bean입니다.========");
-        return "Hello Bean";
-    }
 }
